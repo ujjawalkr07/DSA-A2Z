@@ -12,7 +12,7 @@ int main()
     int majorityElement(vector<int>& arr) {
         int n=arr.size();
         /* brute force approach here we are counting frequency of each element and 
-        then checking if it is greater than n/2.
+        then checking if  it is greater than n/2.
         t.c=O(n^2) and s.c=O(1).
         int el=INT_MIN;
         for(int i=0;i<n;i++)
