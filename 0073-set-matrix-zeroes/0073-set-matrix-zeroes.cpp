@@ -34,8 +34,14 @@ public:
         }
         */
         
-        // better solution
-        /* t.c= O(2*n*m)
+        // better solution i
+        /* in this approach we will create two array row and col in which 
+        we will instilised all to 0 and then through traversal we will set
+        element in row and col 1 if any of it contain zero.
+        and after that we will convert  element in the matrix to zero
+         if any corresponding row or col contain 1 
+        
+        t.c= O(2*n*m)
             s.c=O(n)+O(m)
         vector<int>col(m,0);
         vector<int>row(n,0);
@@ -62,7 +68,9 @@ public:
         }
         
     */
-    /* optimal approach
+    /* optimal approach : same as above but we wil not create another
+     row and col but we will rewrite col 0 and row 0 . since row and 
+     col at 0 will collide so for that we will create col0 
         t.c=O(2*m*n)
         s.c= O(1)
     */
