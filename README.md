@@ -7,6 +7,7 @@ Author- Ujjawal kumar.
 ## Array
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/ujjawalkr07/DSA-A2Z/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/ujjawalkr07/DSA-A2Z/tree/master/0073-set-matrix-zeroes) |
 | [0560-subarray-sum-equals-k](https://github.com/ujjawalkr07/DSA-A2Z/tree/master/0560-subarray-sum-equals-k) |
 ## Hash Table
@@ -17,9 +18,14 @@ Author- Ujjawal kumar.
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/ujjawalkr07/DSA-A2Z/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/ujjawalkr07/DSA-A2Z/tree/master/0073-set-matrix-zeroes) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/ujjawalkr07/DSA-A2Z/tree/master/0560-subarray-sum-equals-k) |
+## Math
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/ujjawalkr07/DSA-A2Z/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->
