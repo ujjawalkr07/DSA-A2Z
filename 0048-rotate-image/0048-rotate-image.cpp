@@ -23,6 +23,8 @@ public:
         */
         // optimal approach- 
         //observation- first taking transpose and the reversing the row of matrix
+         /* Time Complexity: O(m*n) + O(m*n).One O(m*n) is for transposing the matrix and the other is for reversing the matrix.
+        Space Complexity: O(1).*/
          // transpose
          for(int i=0;i<m-1;i++)
          {
