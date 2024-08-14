@@ -34,4 +34,8 @@ Author- Ujjawal kumar.
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/ujjawalkr07/DSA-A2Z/tree/master/0054-spiral-matrix) |
+## Linked List
+|  |
+| ------- |
+| [0237-delete-node-in-a-linked-list](https://github.com/ujjawalkr07/DSA-A2Z/tree/master/0237-delete-node-in-a-linked-list) |
 <!---LeetCode Topics End-->
