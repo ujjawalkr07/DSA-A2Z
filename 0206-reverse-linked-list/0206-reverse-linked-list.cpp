@@ -11,6 +11,7 @@
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
+        /*
         //using stack
         ListNode* temp=head;
         stack<int>st;
@@ -27,5 +28,18 @@ public:
             temp=temp->next;
         }
         return head;
+        */
+        //by exchanging the next pointer 
+        ListNode* curr=head;
+        ListNode* back=NULL;
+        while(curr != NULL)
+        {
+            ListNode* front=curr->next;
+            curr->next=back;
+            back=curr;
+            curr=front;
+
+        }
+        return back;
     }
 };
