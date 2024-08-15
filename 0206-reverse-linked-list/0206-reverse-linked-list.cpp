@@ -12,7 +12,9 @@ class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
         /*
-        //using stack
+        //using stack:- comping all data into stack and then again copying     back to linked list
+        t.c=O(n)+O(n)   // for copying into stack and then copying back into linked list 
+        s.c=O(n)    // for using extra stack
         ListNode* temp=head;
         stack<int>st;
         while(temp != NULL)
@@ -29,7 +31,7 @@ public:
         }
         return head;
         */
-        //by exchanging the next pointer 
+        //by exchanging the curr and back pointer 
         ListNode* curr=head;
         ListNode* back=NULL;
         while(curr != NULL)
