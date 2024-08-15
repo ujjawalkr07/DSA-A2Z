@@ -11,6 +11,7 @@
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
+        /*
         ListNode* temp=head;
         int count=1;
         while(temp != NULL)
@@ -39,5 +40,17 @@ public:
             }
         }
         return temp;
+        */
+        /*tortoise-hare method:- here we are taking two pointer fast and 
+        slow where we are moving slow by one step and fast by two step */
+        ListNode* slow=head;
+        ListNode* fast=head;
+        while(fast != NULL && fast->next != NULL)
+        {
+            slow=slow->next;
+            fast=fast->next->next;
+        }
+        return slow;
+
     }
 };
