@@ -47,11 +47,11 @@ public:
         return back;
         */
         // recursive method
-        if(head == NULL || head->next == NULL)
+        if(head == NULL || head->next == NULL)  // base case if one element or single element
         {
             return head;
         }
-        ListNode* newhead=reverseList(head->next);
+        ListNode* newhead=reverseList(head->next);  // recursive call 
         ListNode* front=head->next;
         front->next = head;
         head->next=NULL;
